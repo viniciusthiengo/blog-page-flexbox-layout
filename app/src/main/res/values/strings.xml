@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Blog Page</string>
+    <string name="large_text">
+        "Opa, blz?\n\n"
+
+        "Neste artigo vamos implementar uma API de monetização que também acrescenta um funcionalidade "
+        "extra, funcionalidade além do domínio do problema de nossos aplicativos Android.\n\n"
+
+        "Com a Calldorado SDK será possível monetizarmos nossos Apps Android em um trecho do aparelho "
+        "do usuário onde APIs convencionais de anúncios mobile não conseguem rentabilizar, implicando "
+        "assim na possibilidade de uso de ao menos mais de uma API para monetização: a Calldorado e "
+        "alguma outra de sua preferência.\n\n"
+
+        "Como projeto de exemplo vamos trabalhar em um App onde o domínio do problema é a apresentação "
+        "da sinopse dos filmes atuais em cartaz.\n\n"
+
+
+
+
+        "Calldorado, visão geral\n\n"
+
+        "Como informado no início do artigo, a Calldorado API não somente nos permite a monetização como "
+        "também permite que o usuário tenha uma nova funcionalidade no device dele: identificação de chamadas.\n\n"
+
+        "Na imagem anterior, liguei para a administração do cinema do principal shopping da capital do "
+        "Espírito Santo, sem te-la nos contatos do device, a API Calldorado conseguiu, utilizando a base "
+        "deles, identificar o local e me informar o nome. Posteriormente, no fim da ligação, é possível ver "
+        "as avaliações e o local em mapa, além de podermos enviar um mensagem ou email, incluindo nossa própria "
+        "avaliação.\n\n"
+
+
+
+
+        "O que é?\n\n"
+
+        "Home page da API Calldorado\n\n"
+
+        "Uma API que nos permite acrescentar a funcionalidade de identificador de chamadas a aplicativos Android e "
+        "assim o usuário passa a ter também essa característica no device dele.\n\n"
+
+        "Com isso podemos também aumentar os ganhos do App devido ao trabalho com anúncios, esses que, como outras "
+        "APIs de monetização, vêm de ad networks famosas e com um fill rate alto. Networks como: AdMob, MoPub e Smaato.\n\n"
+
+        "Aplicativo Android com a API Calldorado em ação com um anúncio\n\n"
+
+        "Os anúncios sempre são apresentados na tela final, digo, caso tenha algum a ser apresentado. Nós não "
+        "escolhemos os tipos de anúncios que serão mostrados (banner, vídeo, ...), essa escolha é com a "
+        "Calldorado API.\n\n"
+
+        "Note que segundo a documentação e as FAQ da API em estudo, essa funcionalidade de identificação de "
+        "chamada é muito bem vista pelos usuários de smartphones, logo, estudando essas fintes nós podemos "
+        "perceber que na verdade o objetivo principal da startup dinamarquesa é fornecer essa característica "
+        "de identificação de chamada, depois, como uma segunda meta, permitir o aumento dos ganhos do aplicativo "
+        "por meio de anúncios que serão apresentados junto a essa funcionalidade.\n\n"
+
+        "É explicitado na documentação da Calldorado que a API terá uma melhor performance nos ganhos do "
+        "aplicativo caso seja utilizada junto a outra API de anúncios, uma convencional que permita o uso "
+        "de banners e interstitials, por exemplo.\n\n"
+
+        "E é isso mesmo que você leu, a startup é da Dinamarca, criada em 2016 e, segundo eles, com um "
+        "crescimento rápido, hoje com mais de 50 colaboradores.\n\n"
+
+        "Note que a tela de identificação de chamada pode aparecer depois de uma ligação perdida, uma "
+        "ligação não atendida (quando você realizou ela) e, obviamente, depois de uma ligação finalizada. "
+        "Além do mais, com o consentimento da permissão de acesso a localização do usuário, é possível "
+        "que a API apresente locais próximos e de mesmo business que o local da ligação anteriormente:\n\n"
+
+        "Android em ligação e depois com as sugestões da API Calldorado\n\n"
+
+        "Acima a ligação foi realizada do emulador, que seguindo a documentação o número é de uma pizzaria "
+        "em Berlim. Ao final, ligação encerrada, a API apresenta, além de outras opções, algumas pizzarias "
+        "próximas do local onde o usuário está.\n\n"
+
+        "Durante o vídeo e o artigo, você notará que os anúncios não são apresentados em um device real e "
+        "nem mesmo no emulador. Isso aparentemente acontece devido a liberação de anúncios somente depois "
+        "de o App já estar na Google Play Store.\n\n"
+
+        "Entrei em contato com o suporte da Calldorado e garantiram que para o Brasil a API também funciona, "
+        "digo, incluindo a monetização.\n\n"
+
+        "Para finalizar essa seção, a Calldorado não utiliza somente a base de dados dela para identificar "
+        "qual o proprietário do número em ligação, são utilizadas também bases de dados de empresas parceiras. "
+        "Tendo em mente que quando um número não é encontrado, nós usuários do aplicativo podemos fornecer o "
+        "nome do dono do número:\n\n"
+
+        "Informando o nome de um contato não encontrado na base da API Calldorado\n\n"
+
+        "Assim vamos ao calculador de ganhos aproximados."
+    </string>
+    <string name="action_settings">Settings</string>
+</resources>

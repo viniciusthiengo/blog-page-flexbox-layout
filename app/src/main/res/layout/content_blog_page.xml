@@ -9,6 +9,7 @@
     tools:showIn="@layout/activity_blog_page">
 
     <RelativeLayout
+        android:id="@+id/rl_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="16dp">
@@ -36,7 +37,7 @@
             android:textSize="22sp"
             android:textStyle="bold" />
 
-        <LinearLayout
+        <!-- LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
@@ -183,7 +184,7 @@
                 android:paddingTop="8dp"
                 android:text="cinema"
                 android:textSize="18sp" />
-        </LinearLayout>
+        </LinearLayout -->
 
         <!-- com.google.android.flexbox.FlexboxLayout
             android:layout_width="wrap_content"
@@ -191,10 +192,11 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_below="@+id/tv_tags_title"
-            app:flexWrap="wrap">
+            app:flexWrap="wrap"
+            app:flexDirection="row">
 
             <TextView
-                android:gravity="center"
+                app:layout_flexGrow="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="2dp"
@@ -203,6 +205,7 @@
                 android:layout_marginStart="2dp"
                 android:layout_marginTop="4dp"
                 android:background="@drawable/borda_tag"
+                android:gravity="center"
                 android:onClick="tagClick"
                 android:paddingBottom="8dp"
                 android:paddingEnd="12dp"
@@ -211,11 +214,10 @@
                 android:paddingStart="12dp"
                 android:paddingTop="8dp"
                 android:text="android"
-                android:textSize="18sp"
-                app:layout_flexGrow="1" />
+                android:textSize="18sp" />
 
             <TextView
-                android:gravity="center"
+                app:layout_flexGrow="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="2dp"
@@ -224,6 +226,7 @@
                 android:layout_marginStart="2dp"
                 android:layout_marginTop="4dp"
                 android:background="@drawable/borda_tag"
+                android:gravity="center"
                 android:onClick="tagClick"
                 android:paddingBottom="8dp"
                 android:paddingEnd="12dp"
@@ -232,11 +235,10 @@
                 android:paddingStart="12dp"
                 android:paddingTop="8dp"
                 android:text="app mobile"
-                android:textSize="18sp"
-                app:layout_flexGrow="1" />
+                android:textSize="18sp" />
 
             <TextView
-                android:gravity="center"
+                app:layout_flexGrow="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="2dp"
@@ -245,6 +247,7 @@
                 android:layout_marginStart="2dp"
                 android:layout_marginTop="4dp"
                 android:background="@drawable/borda_tag"
+                android:gravity="center"
                 android:onClick="tagClick"
                 android:paddingBottom="8dp"
                 android:paddingEnd="12dp"
@@ -253,11 +256,10 @@
                 android:paddingStart="12dp"
                 android:paddingTop="8dp"
                 android:text="monetização"
-                android:textSize="18sp"
-                app:layout_flexGrow="1" />
+                android:textSize="18sp" />
 
             <TextView
-                android:gravity="center"
+                app:layout_flexGrow="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="2dp"
@@ -266,6 +268,7 @@
                 android:layout_marginStart="2dp"
                 android:layout_marginTop="4dp"
                 android:background="@drawable/borda_tag"
+                android:gravity="center"
                 android:onClick="tagClick"
                 android:paddingBottom="8dp"
                 android:paddingEnd="12dp"
@@ -274,11 +277,10 @@
                 android:paddingStart="12dp"
                 android:paddingTop="8dp"
                 android:text="calldorado"
-                android:textSize="18sp"
-                app:layout_flexGrow="1" />
+                android:textSize="18sp" />
 
             <TextView
-                android:gravity="center"
+                app:layout_flexGrow="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="2dp"
@@ -287,6 +289,7 @@
                 android:layout_marginStart="2dp"
                 android:layout_marginTop="4dp"
                 android:background="@drawable/borda_tag"
+                android:gravity="center"
                 android:onClick="tagClick"
                 android:paddingBottom="8dp"
                 android:paddingEnd="12dp"
@@ -295,11 +298,10 @@
                 android:paddingStart="12dp"
                 android:paddingTop="8dp"
                 android:text="identificador de chamadas"
-                android:textSize="18sp"
-                app:layout_flexGrow="1" />
+                android:textSize="18sp" />
 
             <TextView
-                android:gravity="center"
+                app:layout_flexGrow="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="2dp"
@@ -308,6 +310,7 @@
                 android:layout_marginStart="2dp"
                 android:layout_marginTop="4dp"
                 android:background="@drawable/borda_tag"
+                android:gravity="center"
                 android:onClick="tagClick"
                 android:paddingBottom="8dp"
                 android:paddingEnd="12dp"
@@ -316,11 +319,10 @@
                 android:paddingStart="12dp"
                 android:paddingTop="8dp"
                 android:text="filmes"
-                android:textSize="18sp"
-                app:layout_flexGrow="1" />
+                android:textSize="18sp" />
 
             <TextView
-                android:gravity="center"
+                app:layout_flexGrow="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="2dp"
@@ -329,6 +331,7 @@
                 android:layout_marginStart="2dp"
                 android:layout_marginTop="4dp"
                 android:background="@drawable/borda_tag"
+                android:gravity="center"
                 android:onClick="tagClick"
                 android:paddingBottom="8dp"
                 android:paddingEnd="12dp"
@@ -337,9 +340,7 @@
                 android:paddingStart="12dp"
                 android:paddingTop="8dp"
                 android:text="cinema"
-                android:textSize="18sp"
-                app:layout_flexGrow="1" />
+                android:textSize="18sp" />
         </com.google.android.flexbox.FlexboxLayout -->
-
     </RelativeLayout>
 </android.support.v4.widget.NestedScrollView>

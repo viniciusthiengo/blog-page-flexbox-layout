@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Blog Page</string>
     <string name="large_text">
@@ -14,9 +15,6 @@
         "Como projeto de exemplo vamos trabalhar em um App onde o domínio do problema é a apresentação "
         "da sinopse dos filmes atuais em cartaz.\n\n"
 
-
-
-
         "Calldorado, visão geral\n\n"
 
         "Como informado no início do artigo, a Calldorado API não somente nos permite a monetização como "
@@ -27,9 +25,6 @@
         "deles, identificar o local e me informar o nome. Posteriormente, no fim da ligação, é possível ver "
         "as avaliações e o local em mapa, além de podermos enviar um mensagem ou email, incluindo nossa própria "
         "avaliação.\n\n"
-
-
-
 
         "O que é?\n\n"
 
@@ -87,5 +82,4 @@
 
         "Assim vamos ao calculador de ganhos aproximados."
     </string>
-    <string name="action_settings">Settings</string>
 </resources>
